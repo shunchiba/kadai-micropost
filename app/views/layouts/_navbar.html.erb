@@ -31,6 +31,9 @@
               <%= link_to "Logout", logout_path, method: :delete %>
               
             </li>
+            <li class="dropdown-item">
+              <%= link_to "favorite", likes_user_path(current_user) %>
+            </li>
           </ul>
         </li>
         
